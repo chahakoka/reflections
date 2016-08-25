@@ -1,0 +1,21 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+diff helped a lot because instead of reading two files; each line by line and comparing them in my head, I was able to read one file, see the differences and not have to do any comparisons in my head.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Sometimes I do something, but later have to remove it, but even later have to put it back (maybe slightly differently). With the entire file history I'd be able to find the pieces I need, extract them, use them and not have to write the piece again from memory.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Automatically saving is not related to logical units of work. There will be too many versions and most of these won't have meaning (may not be consistent, may not compile). On the other hand, the disadvantage of manually committing (exclusively) is that if you forget to commit, you will have nothing saved; nothing to compare, no possibility of going back to an earlier version.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+The reason is:  in programming more than one file may be changed in a logical unit of work. If Google Docs, each file is independent of the other.
+
+How can you use the commands git log and git diff to view the history of files?
+Git log shows a summary of all commits and git diff shows a the changes that make up a commit.
+
+How might using version control make you more confident to make changes that could break something?
+Knowing that i can go back to the version before my changes (git checkout) gives me the confidence to make changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I don't have a project yet, but when I start learning map-reduce I'll want to use Git.
