@@ -3,4 +3,6 @@ When I initialize a repository and additional hidden directory and other files a
 so that the git processes can work, otherwise I have a directory but not a repository.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-It's not like the repository because I can change the files there. It's not the same as a working directory because it tracks files that have changed.
+The staging area is unlike the repository because files in the staging area can be edited.
+The staging area is unlike the working directory because files in the staging area can be committed - saved as a copy to the repository.
+The value of the staging area is that it's a place to group logical units of work before they are saved to the repository.
