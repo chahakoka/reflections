@@ -6,3 +6,6 @@ How is the staging area different from the working directory and the repository?
 The staging area is unlike the repository because files in the staging area can be edited.
 The staging area is unlike the working directory because files in the staging area can be committed - saved as a copy to the repository.
 The value of the staging area is that it's a place to group logical units of work before they are saved to the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+git diff will show the changes between the working directory and the staging area. If things look right, I'll add the changes in the working directory to the staging area using git add <filename> and then I can use git diff --staged to compare the staging area and the repository.
